@@ -30,11 +30,11 @@ A lightweight, POSIX-compliant user-level threading library implemented in C++ t
 ```
 .
 ├── threads.cpp          # Main threading library implementation
-├── threads.h            # (Optional) Header file for library interface
 ├── test_all_at_once.c   # Stress test: 128 threads created simultaneously
 ├── test_batches.c       # Stress test: 128 threads created in batches
-├── Makefile            # Build system
-└── README.md           # This file
+├── example_test.cpp     # Sample test
+├── Makefile             # Build system
+└── README.md            # This file
 ```
 
 ## Compilation
